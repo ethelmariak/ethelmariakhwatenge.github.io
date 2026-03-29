@@ -6,7 +6,7 @@
 
   /* Text colors */
   --text-main: #e5e7eb;   /* light gray, good for body text */
-  --text-strong: #f9fafb; /* almost white, for headings/emphasis */
+  --text-strong: #dddfe5; /* almost white, for headings/emphasis */
   --text-muted: #9ca3af;  /* muted text on dark backgrounds */
 
   /* Accent colors */
