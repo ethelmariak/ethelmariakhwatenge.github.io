@@ -116,141 +116,39 @@
 
   </section>
 
-  <designProcess>
-  <approach primaryModel="ADDIE" secondaryModel="BackwardDesign">
-    <description>
+ <section id="process">
+  <h2>Design Process</h2>
+  <p>
+    I use a blended ADDIE and backward design approach, starting from learning outcomes and working backwards to
+    align assessments, activities, and content.
+  </p>
+  <p>
+    Below is a structured XML overview of my process, from analysis through evaluation.
+  </p>
+
+  <pre><code>&lt;designProcess&gt;
+  &lt;approach primaryModel="ADDIE" secondaryModel="BackwardDesign"&gt;
+    &lt;description&gt;
       I use a blended ADDIE and backward design approach. I start by clarifying the desired learning outcomes
       and success criteria, then work backwards to design assessments and learning activities that align with
       those outcomes.
-    </description>
-  </approach>
+    &lt;/description&gt;
+  &lt;/approach&gt;
 
-  <phase name="Analysis">
-    <goals>
-      <goal>Understand the performance gap and learning problem.</goal>
-      <goal>Identify learner characteristics, constraints, and context.</goal>
-      <goal>Document stakeholder expectations and success metrics.</goal>
-    </goals>
-    <activities>
-      <activity>Review existing materials, data, and prior courses.</activity>
-      <activity>Conduct short interviews or surveys with stakeholders and sample learners.</activity>
-      <activity>Create a concise needs analysis summary.</activity>
-    </activities>
-    <outputs>
-      <output type="document">Needs analysis summary</output>
-      <output type="list">Prioritized learning objectives (draft)</output>
-    </outputs>
-  </phase>
+  &lt;phase name="Analysis"&gt;
+    &lt;goals&gt;
+      &lt;goal&gt;Understand the performance gap and learning problem.&lt;/goal&gt;
+      &lt;goal&gt;Identify learner characteristics, constraints, and context.&lt;/goal&gt;
+    &lt;/goals&gt;
+  &lt;/phase&gt;
+&lt;/designProcess&gt;
+</code></pre>
 
-  <phase name="Design">
-    <goals>
-      <goal>Translate needs into measurable learning objectives.</goal>
-      <goal>Plan assessments and practice activities that align with objectives.</goal>
-      <goal>Structure content into a coherent learning journey.</goal>
-    </goals>
-    <activities>
-      <activity>Write SMART learning objectives and map them to assessments.</activity>
-      <activity>Create a high‑level content outline and lesson flow.</activity>
-      <activity>Develop storyboards or scripts for key interactions and media.</activity>
-    </activities>
-    <outputs>
-      <output type="document">Design blueprint / course map</output>
-      <output type="document">Storyboards or scripts</output>
-    </outputs>
-  </phase>
-
-  <phase name="Development">
-    <goals>
-      <goal>Build learning materials that match the design blueprint.</goal>
-      <goal>Ensure accessibility and responsiveness across devices.</goal>
-    </goals>
-    <activities>
-      <activity>Author e‑learning modules in tools such as Articulate Rise 360 or Storyline.</activity>
-      <activity>Develop supporting resources (job aids, PDFs, templates).</activity>
-      <activity>Implement basic analytics or tracking in the LMS.</activity>
-    </activities>
-    <outputs>
-      <output type="course">Published e‑learning modules</output>
-      <output type="file">Downloadable resources (PDFs, worksheets, checklists)</output>
-    </outputs>
-  </phase>
-
-  <phase name="Implementation">
-    <goals>
-      <goal>Deploy the course and support instructors or facilitators.</goal>
-      <goal>Prepare learners with clear instructions and expectations.</goal>
-    </goals>
-    <activities>
-      <activity>Upload and configure the course in the LMS (e.g., Canvas, Reach360).</activity>
-      <activity>Set up enrollment options, announcements, and guidance for learners.</activity>
-      <activity>Brief facilitators on key activities and assessments.</activity>
-    </activities>
-    <outputs>
-      <output type="environment">Live course site</output>
-      <output type="document">Facilitator or instructor guide</output>
-    </outputs>
-  </phase>
-
-  <phase name="Evaluation">
-    <goals>
-      <goal>Gather evidence of learning and course effectiveness.</goal>
-      <goal>Identify opportunities to refine content and delivery.</goal>
-    </goals>
-    <activities>
-      <activity>Review quiz results, completion data, and learner feedback.</activity>
-      <activity>Conduct short debriefs with stakeholders and facilitators.</activity>
-      <activity>Prioritize and document revisions for the next iteration.</activity>
-    </activities>
-    <outputs>
-      <output type="report">Evaluation summary and recommendations</output>
-      <output type="backlog">Version 2 improvement list</output>
-    </outputs>
-  </phase>
-
-  <requirementsGathering>
-    <methods>
-      <method>Stakeholder interviews</method>
-      <method>Learner surveys</method>
-      <method>Review of existing performance data</method>
-    </methods>
-    <notes>
-      I focus on asking what learners need to do differently after the course, which informs the final assessment
-      and ensures tight alignment between objectives, content, and evaluation.
-    </notes>
-  </requirementsGathering>
-
-  <prototyping>
-    <description>
-      I create low‑fidelity prototypes first (outlines, sample screens, short video snippets), then share them
-      with stakeholders for quick feedback before building full modules.
-    </description>
-    <artifacts>
-      <artifact type="prototype">Sample lesson or interaction</artifact>
-      <artifact type="prototype">Visual style tile or UI mockup</artifact>
-    </artifacts>
-  </prototyping>
-
-  <testingAndIteration>
-    <description>
-      I pilot key parts of the course with a small group of representative learners, observe where they struggle,
-      and refine content, pacing, and interactions based on both qualitative and quantitative data.
-    </description>
-    <methods>
-      <method>Informal usability testing with 3–5 learners</method>
-      <method>Short post‑module surveys</method>
-      <method>Review of analytics (drop‑off points, quiz items)</method>
-    </methods>
-  </testingAndIteration>
-
-  <resources>
-    <pdfOverview path="docs/design-process-overview.pdf">
-      <description>Downloadable one‑page summary of my design process.</description>
-    </pdfOverview>
-    <visualOverview path="images/design-process-map.png">
-      <description>Visual map of phases, activities, and outputs.</description>
-    </visualOverview>
-  </resources>
-</designProcess>
+  <p>
+    You can also download a one‑page PDF overview of this process:
+    <a href="docs/design-process-overview.pdf" target="_blank">Design process overview (PDF)</a>
+  </p>
+</section>
 
   <section id="enrollment">
     <h2>Enroll in this Course</h2>
