@@ -2,11 +2,12 @@
   --bg: #0f172a;          /* deep navy */
   --bg-alt: #020617;      /* darker navy for header/footer */
   --card: #1e293b;        /* card background */
-  --accent: #38bdf8;      /* cyan accent */
-  --accent-soft: #0ea5e9; /* lighter cyan */
-  --text-main: #e5e7eb;   /* light text */
-  --text-muted: #9ca3af;  /* muted text */
   --border-subtle: #1f2933;
+  --text-main: #e5e7eb;   /* already good (very light gray) */
+  --text-strong: #f9fafb; /* almost white, great for headings */
+  --text-muted: #9ca3af;  /* muted but still readable on cards */
+  --text-accent: #fbbf24; /* warm accent (amber) for emphasis */
+  --text-accent-2: #a5b4fc; /* soft indigo accent for links/badges */
 }
 
 /* Reset-ish */
