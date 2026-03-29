@@ -205,6 +205,26 @@ footer {
   nav {
     justify-content: flex-start;
   }
+  /* Code / XML block styling */
+pre {
+  background: #020617;            /* dark navy, matches theme */
+  border: 1px solid var(--border-subtle);
+  border-radius: 0.5rem;
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+  font-family: "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-main);
+  margin: 1rem 0;
+}
+
+pre code {
+  white-space: pre;
+  display: block;
+}
+
+  
 
   .project {
     padding: 1rem;
