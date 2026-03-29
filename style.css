@@ -230,3 +230,81 @@ pre code {
     padding: 1rem;
   }
 }
+
+/* Interactive Design Process sections */
+.process-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.process-item {
+  border-radius: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), rgba(15, 23, 42, 0.96));
+  overflow: hidden;
+}
+
+/* The clickable summary bar */
+.process-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-strong);
+  font-weight: 600;
+}
+
+.process-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.process-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.process-step-badge {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(56, 189, 248, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: var(--accent);
+}
+
+.process-chevron {
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+/* Content */
+.process-content {
+  padding: 0 1rem 0.9rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.process-content h3 {
+  margin: 0.6rem 0 0.2rem;
+  font-size: 0.95rem;
+  color: var(--text-strong);
+}
+
+.process-content ul {
+  margin: 0.15rem 0 0.4rem 1.1rem;
+  padding: 0;
+  color: var(--text-main);
+  font-size: 0.9rem;
+}
+
+.process-content li {
+  margin-bottom: 0.15rem;
+}
